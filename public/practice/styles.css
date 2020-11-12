@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    background-color: darkcyan;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: blink;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
+p {
+    background-color: white;
+    color: purple;
+    padding:10px;
+    box-shadow: 0 0 10px black;
+}
+a:hover {
+    color:deeppink;
+    text-decoration: underline;
+}
+.table {
+    margin:10px;
+    padding: 10px;
+    background-color: deeppink;
+    box-shadow: 0 0 10px black;
+}
+img {
+    display: block;
+}
+#user{
+    width:15%;
+}
+#check {
+    text-align: center;
+    width:15%;
+}
+form {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
