@@ -57,3 +57,7 @@ a {
 a:hover {
     color: rgb(231, 159, 76);
 }
+.work {
+    display: flex;
+    flex-direction: column;
+}
