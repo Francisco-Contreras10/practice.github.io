@@ -2,13 +2,11 @@ body{
     background-color:grey;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    flex-wrap:wrap;
     background-color: rgb(146, 146, 223);
     margin-top: 1%;
     margin-left:5%;
