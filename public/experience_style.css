@@ -61,19 +61,32 @@ h2 {
 .work {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin:3%;
 }
 .nih {
     display:flex;
     flex-direction: column;
     background-color: grey;
-    margin:5%;
+    margin:1%;
+    width:600px;
     padding:10px;
 }
 .hrsa {
     display:flex;
     flex-direction: column;
     background-color: grey;
-    margin:5%;
+    margin:1%;
+    width:600px;
     padding:10px;
+}
+
+ul.nih_des {
+    background-color: white;
+    list-style: inside circle;
+}
+
+ul.hrsa_des {
+    background-color: white;
+    list-style: inside circle;
 }
