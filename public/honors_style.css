@@ -262,12 +262,9 @@ a:hover
     z-index: 100;
     top: 0;
     left: 0;
-
     width: 0;
     height: 100%;
-
     transition: .25s ease;
-
     color: #fff;
     background: #008aff;
 }
@@ -280,11 +277,8 @@ a:hover
     position: absolute;
     top: 50%;
     left: 0;
-
     width: 100%;
     padding: 0 6rem;
-
- 
     transform: translateY(-50%);
 }
 
