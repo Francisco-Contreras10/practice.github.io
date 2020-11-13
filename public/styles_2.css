@@ -1,4 +1,5 @@
 body{
+    width:960px;
     background-color:grey;
     display: flex;
     flex-direction: column;
@@ -79,6 +80,9 @@ a:hover {
     justify-content: space-evenly;
     flex-wrap:wrap;
     font-weight: bold;
+    margin-top:1%;
+    margin-bottom: 1%;
+    background-color: rgba(55, 55, 56,0.5);
 }
 
 .profile {
@@ -86,6 +90,7 @@ a:hover {
     flex-direction: column;
     text-align: center;
     color:white;
+    margin-bottom: 1%;
 }
 h2 {
     background-color: rgb(146, 146, 223);

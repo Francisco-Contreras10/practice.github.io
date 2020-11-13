@@ -84,9 +84,11 @@ h2 {
 ul.nih_des {
     background-color: white;
     list-style: inside circle;
+    padding:2%;
 }
 
 ul.hrsa_des {
     background-color: white;
     list-style: inside circle;
+    padding:2%;
 }
