@@ -55,7 +55,25 @@ a {
 a:hover {
     color: rgb(231, 159, 76);
 }
+h2 {
+    text-align: center;
+}
 .work {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nih {
+    display:flex;
     flex-direction: column;
+    background-color: grey;
+    margin:5%;
+    padding:10px;
+}
+.hrsa {
+    display:flex;
+    flex-direction: column;
+    background-color: grey;
+    margin:5%;
+    padding:10px;
 }
