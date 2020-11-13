@@ -225,7 +225,23 @@ a:hover
 {
     width: 100%;
 }
+@media (max-width:1200px)
+{
+    #intro
+    {
+        height: auto;
+    }
 
+    #intro .container-mid
+    {
+        position: relative;
+        top: 0;
+
+        margin: 15vh 0;
+
+        transform: translate(0);
+    }
+}
 
 /** 5. Content inner --> About
 *******************************************************************/
